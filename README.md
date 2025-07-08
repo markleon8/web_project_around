@@ -1,28 +1,29 @@
-# Proyecto web responsivo
+# Proyecto web responsivo con Javascript
 
 ## Nombre del proyecto
 
-Arund the World
+Around the World 
 
 ## Descripción del proyecto
-
+Proyecto realizado durante el Sprint 7 del bootcamp de desarrollo web en TripleTen.  
+Se trata de una galería de destinos con la posibilidad de editar el perfil de usuario (nombre y ocupación), utilizando formularios emergentes (popups) y lógica en JavaScript puro.
 
 
 ## Tecnologías y técnicas utilizadas
 
 - **HTML5 semántico**: Estructura clara y accesible.
-- **CSS3 modular**: Estilos divididos en archivos por secciones (`header.css`, `content.css`, `footer.css`).
+- **JavaScript Vanilla** sin frameworks
+- **Uso de Git y GitHub con ramas** (`main`, `develop`, `feature/*`)
+
+- Diseño de componentes modales (popups)
+- Buenas prácticas de organización de carpetas y scripts
+- **Javascript** Control de flujo con `addEventListener`, `querySelector` y manejo de eventos
+
 - **Flexbox**: Para distribución de contenido flexible y centrado.
-- **Unidades relativas (fr)**: Para mejorar la adaptabilidad entre resoluciones.
-- **Media Queries**: Personalizadas para tres rangos clave:
-  - `320px a 544px`
-  - `544px a 1024px`
-  - `1024px en adelante`
+- **Media Queries**
 - **Fuentes personalizadas con `@font-face`**: Uso de la tipografía Inter (`Regular` y `Black`) cargadas localmente en formato `.woff2`.
 - **Diseño responsive**: Se realizaron ajustes progresivos en tipografías, paddings y márgenes según el punto de ruptura.
-- **Buenas prácticas de line-height y espaciado tipográfico**.
-- **Grid Layout**: Para organizar secciones en un diseño de cuadrícula flexible y responsivo.
-- **Javascript básico**:  
+- **Grid Layout**: Para organizar secciones en un diseño de cuadrícula flexible y responsivo en header.
 
 ## 🌐 Enlace a GitHub Pages
-https://markleon8.github.io/web_project_around
+https://markleon8.github.io/web_project_around/

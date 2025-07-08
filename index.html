@@ -27,9 +27,6 @@
 
           <div class="main__content-avatar">
             <img src="./images/avatar.jpg" alt="profile-avatar" class="main__profile-avatar" />
-            <button type="button" class="main__button main__button_avatar">
-              &#x1F58C;
-            </button>
           </div>
 
           <div class="main__content-info">
@@ -52,7 +49,7 @@
           <div class="main__gallery-card">
             <img class="main__gallery-image" src="./images/card__image-california.webp" alt="California">
             <div class="main__gallery-content">
-              <p class="main__gallery-paragraph">California</p>
+              <p class="main__gallery-paragraph">Descubre California, San Francisco bay </p>
               <button type="button" class="main__button main__button_like"></button>
             </div>
           </div>
@@ -100,9 +97,48 @@
         </div>
       </main>
 
-    </section>
+      <!-- popup editar perfil -->
+      <div class="popup">
+        <div class="popup__container">
+          <button type="button" class="popup__button popup__button_close">
+            &#x1F7A9;
+          </button>
+          <form class="popup__form form-edit" novalidate>
+            <h2 class="popup__subtitle">Editar perfil</h2>
+            <fieldset class="popup__content">
+              <label class="popup__field">
+                <input
+                  type="text"
+                  class="popup__input popup__input_name"
+                  placeholder="Nombre completo"
+                  minlength="2"
+                  maxlength="40"
+                  id="name-input"
+                  required
+                />
+                <span class="popup__input-error name-input-error"></span>
+              </label>
+              <label class="popup__field">
+                <input
+                  type="text"
+                  class="popup__input popup__input_about"
+                  placeholder="Acerca de mi"
+                  minlength="2"
+                  maxlength="200"
+                  id="about-input"
+                  required
+                />
+                <span class="popup__input-error about-input-error"></span>
+              </label>
+              <button type="submit" class="popup__button popup__button_save">
+                Guardar
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      <!-- popup -->
 
-    </main>
+    </div> <!-- cierre de main content -->
 
       <footer class="footer" id="footer">
         <div class="footer__content">
